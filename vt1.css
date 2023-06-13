@@ -160,7 +160,7 @@ li {
     /* background-color: rgb(212, 196, 104); */
 }
 .mainPage:hover {
-    min-height: 620px;
+    min-height: 500px;
     height: 100%;
     /* background-color: rgb(186, 184, 173); */
     background-image: linear-gradient(to right, rgb(186, 184, 173), rgb(212, 196, 104));
@@ -170,12 +170,26 @@ li {
 }
 .explanationImg {
     /* display: inline-block; */
+    text-overflow: ellipsis;
     float: left;
     margin-right: 20px;
 }
 .explanation {
     /* display: inline-block; */
     font-size: 20px;
+    text-overflow: ellipsis;
+}
+.explanationImg h1 {
+    background-image: linear-gradient(to right, rgb(228, 141, 141), rgb(209, 45, 45));
+    color: rgb(228, 219, 167);
+    text-align: center;
+    /* color: darkolivegreen; */
+}
+.explanation h1 {
+    color: rgb(4, 62, 4);
+}
+.explanation p {
+    text-overflow: ellipsis;
 }
 .footerLine {
     margin: 20px 0;
