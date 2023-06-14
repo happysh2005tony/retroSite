@@ -1,8 +1,38 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Black+Han+Sans&family=Lobster&family=Noto+Serif+KR&display=swap');
 /*  */
 .Oswald {
     font-family: 'Oswald', sans-serif;
+}
+.GasoekOne {
+    font-family: 'Gasoek One', sans-serif;
+}
+.DancingScript {
+    font-family: 'Dancing Script', cursive;
+}
+.Anton {
+    font-family: 'Anton', sans-serif;
+}
+.Lobster {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+.NotoSerifKorean {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Serif KR', serif;
+}
+.BlackHanSans {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Serif KR', serif;
 }
 /* 이거 뭐라하지? */
 * {
@@ -95,6 +125,7 @@ li {
     display: block;
     height: 50px;
     font-size: 50px;
+    text-transform: uppercase;
     /* line-height: 20px; */
 }
 .subTitle {
@@ -185,11 +216,25 @@ li {
     text-align: center;
     /* color: darkolivegreen; */
 }
+.explanationImg h1:hover {
+    background-color: rgb(4, 62, 4);
+}
 .explanation h1 {
     color: rgb(4, 62, 4);
+    /* color: rgb(234, 119, 42); */
 }
 .explanation p {
     text-overflow: ellipsis;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Noto Serif KR', serif;
+}
+.explanationNameLine {
+    margin: 20px 0;
+    height: 2px;
+    border: 0;
+    /* background-color: rgb(4, 62, 4); */
+    border-top: 5px dotted rgb(4, 62, 4);
 }
 .footerLine {
     margin: 20px 0;
